@@ -15,6 +15,8 @@ spec:
     gitServer: https://github.com
     provider: openshift
     registry: ghcr.io
+    ingress:
+      domain: apps-crc.testing
   environments:
   - key: dev
   - key: staging
