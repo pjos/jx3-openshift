@@ -14,9 +14,10 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: openshift
-    registry: ghcr.io
+    registry: docker.io
     ingress:
       domain: apps-crc.testing
+      exposer: Route
   environments:
   - key: dev
   - key: staging
